@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+        <!-- The karla and Inter ffs -->
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    
+    </head>
+    <body>
+
+        <div class="main">
+            <div class="hero">
+                <h1><span>Generate a</span> random password</h1>
+                <p>Never use an insecure password again.</p>
+                
+                <button class="generate-btn" onclick="passwordGenerator(20)">Generate passwords</button>
+            </div>
+            <hr>
+            <div class="outputs">
+                <button id="password-one-el" onclick="copyToClipboard()"></button>
+                <button id="password-two-el" onclick="copyToClipboard()"></button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
